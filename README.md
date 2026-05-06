@@ -2,6 +2,8 @@
 
 CS439 Data Science — Final Project, Spring 2026
 
+**Abhishek Sancheti & Aravind Saravu**
+
 ## Overview
 
 This project analyzes the impact of back-to-back scheduling on NBA player and team performance during the 2025-26 regular season. Using play-by-play event data and the official league schedule, we identify which teams and players were most adversely affected by schedule fatigue.
