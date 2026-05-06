@@ -1,0 +1,31 @@
+# Course material (not part of final project submission)
+Lecture Slides/
+Final Project Examples/
+Final Project Templates/
+lecture_notes_all.md
+
+# Large data files (see data/README.md for how to obtain)
+pbp2026.csv
+data/pbp2026.csv
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.ipynb_checkpoints/
+.env
+venv/
+
+# LaTeX build artifacts
+*.aux
+*.log
+*.out
+*.synctex.gz
+*.fls
+*.fdb_latexmk
+*.bbl
+*.blg
+
+# OS
+.DS_Store
+Thumbs.db
