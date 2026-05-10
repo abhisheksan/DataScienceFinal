@@ -27,16 +27,35 @@ This project analyzes the impact of back-to-back scheduling on NBA player and te
 
 ## Data
 
-See [data/README.md](data/README.md) for dataset sources and schema.
+See [data/README.md](data/README.md) for dataset sources, download links, and schema.
 
 ## Requirements
 
 ```
 pandas
 numpy
+scipy
 scikit-learn
 xgboost
 matplotlib
 seaborn
 jupyter
+ipykernel
 ```
+
+Install all at once:
+
+```bash
+pip install pandas numpy scipy scikit-learn xgboost matplotlib seaborn jupyter ipykernel
+```
+
+> **Apple Silicon note:** XGBoost requires OpenMP. If you hit an import error, run `brew install libomp`.
+
+## How to Reproduce
+
+1. Clone the repo: `git clone https://github.com/abhisheksan/DataScienceFinal`
+2. Download `pbp2026.csv` from [Kaggle](https://www.kaggle.com/datasets/szymonjwiak/nba-play-by-play-data-1997-2023) and place it in `data/`
+3. Install requirements (see above)
+4. Open and run `notebooks/analysis.ipynb` top to bottom (Kernel → Restart & Run All)
+
+The notebook writes two figures to `paper/figures/` automatically. All other data files are already in the repo.
